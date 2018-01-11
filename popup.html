@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>myReadings</title>
+        <link rel="stylesheet" type="text/css" href="./popup.css"/>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./popup.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1 id="myReadings-title">
+                <span id="myReadings-status">
+                    <svg fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                </span>
+                <span id="myReadings-pure-title">Unknown Title</span>
+            </h1>
+            <h3 id="myReadings-url"> @ <span id="myReadings-pure-url">URL</span></h3>
+
+            <textarea id="myReadings-comment" placeholder="Comment"></textarea>
+
+            <div id="myReadings-button-set">
+                <button id="myReadings-button-cancel">Cancel</button> <button id="myReadings-button-save">Save</button>
+            </div>
+        </div>
+    </body>
+</html>

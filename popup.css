@@ -1,0 +1,54 @@
+
+body {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    color: #555555;
+}
+
+#myReadings-status {
+    text-align: center;
+}
+
+#myReadings-url {
+    margin-left: 10px;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    height: 50%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+#myReadings-button-set {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#myReadings-button-cancel {
+    background-color: #f44336;
+}
+
+#myReadings-button-save {
+    padding: 12px 28px;
+    background-color: #4CAF50;
+}

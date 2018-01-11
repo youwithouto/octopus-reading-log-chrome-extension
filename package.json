@@ -1,0 +1,13 @@
+{
+  "name": "octopus-reading-log-chrome-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension that logs things I read",
+  "main": "popup.html",
+  "repository": "git@github.com:youwithouto/octopus-reading-log-chrome-extension.git",
+  "author": "Octopus <youwithouto.z@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
